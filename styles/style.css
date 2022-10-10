@@ -1,7 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: inline;
+}
+/* Display: inline-flex */
+header, .menu-list{
+    display: inline-flex;
+}
+header img{
+    width: 5em;
+}
+/* menu */
+/* menu-list */
+.menu-list{
+    list-style: none;
+}
 table{
     border: 3px solid black;
 }
 table,th,td{
     border: 2px solid black;
+    border-collapse: collapse;
 
+}
+footer p{
+    font-weight: bold;
 }
