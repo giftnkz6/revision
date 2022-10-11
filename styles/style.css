@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: greenyellow;
+}
 header{
-    display: inline;
+    display: inline;;
 }
 /* Display: inline-flex */
 header, .menu-list{
@@ -31,6 +34,7 @@ header,footer{
 }
 table{
     border: 3px solid black;
+    background-color: antiquewhite;
 }
 table,th,td{
     border: 2px solid black;
@@ -39,4 +43,23 @@ table,th,td{
 }
 footer p{
     font-weight: bold;
+}
+#box1{
+    background-color: green;
+    color: white;
+    margin: auto;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 20px 10px;
+    border: 10px solid black;
+}
+.unorder li:first-child{
+    color: red;
+}
+.unorder li:last-child{
+    color:orangered;
 }
